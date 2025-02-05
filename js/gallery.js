@@ -86,7 +86,8 @@ ulElement.addEventListener('click', e =>{
   if (e.target===e.currentTarget){
     return;
   }
-  refBigimage=e.target.dataset.source;
+
+  refBigimage=e.target.dataset.source || e.target.href;
   const instance = basicLightbox.create(`
     <div class="modal">
         <img class="refBigimage" src=${refBigimage} />
