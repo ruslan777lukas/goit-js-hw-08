@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    align-content: center;
+    justify-content:center;
+    width: 1440px;
+    height: 696px;
+    gap: 10px;
+    opacity: 0px;
+  }
+  
+  img {
+    width: 360px;
+    height: 200px;
+    opacity: 0px;
+  }
+
+  .gallery-image {
+    cursor: pointer;
+  }
+
+  .refBigimage{
+    width: 1280px;
+    height: 853px;
+  }
